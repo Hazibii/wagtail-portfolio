@@ -1,0 +1,60 @@
+html{
+  @import: url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+body{
+  margin: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+main{
+
+}
+
+.hero {
+    min-height: 100vh;
+}
+
+.right-content{
+    height: 100%;
+}
+
+.left-content{
+    height: 100%;
+}
+
+.right-col {
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.get-notif {
+    padding-right: 10px;
+}
+
+.card-img{
+  max-height: 400px !important;
+  width: 100%;
+  object-fit: cover;
+}
+
+.portfolio-number{
+  position: absolute;
+  top: 0;
+  right:0;
+  background-color: black;
+  font-size: 1.5em;
+}
+
+.portfolio-number strong{
+  padding: 20px;
+}
+.portfolio-item{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}

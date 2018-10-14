@@ -3,9 +3,63 @@
 {% block body_class %}template-homepage{% endblock %}
 
 {% block content %}
-    <h1>Welcome to your new Wagtail site!</h1>
 
-    <p>You can access the admin interface <a href="{% url 'wagtailadmin_home' %}">here</a> (make sure you have run "./manage.py createsuperuser" in the console first).</p>
+<main role="main minh-100vh">
 
-    <p>If you haven't already given the documentation a read, head over to <a href="http://docs.wagtail.io/">http://docs.wagtail.io</a> to start building on Wagtail</p>
+
+      <section id="hero">
+          <div class="container-fluid">
+            <div class="row hero">
+              <div class="col-md-6 d-flex align-items-center right-col overlay" style="background-image:url('https://images.unsplash.com/photo-1496345875659-11f7dd282d1d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a0f994eef47e5fb1a67849703cc961b3&auto=format&fit=crop&w=2250&q=80');">
+                <div class="container">
+                  <div class="row justify-content-center align-items-center right-content  ">
+                    <div class="col-md-9 d-flex justify-content-center flex-column text-white text-center ">
+                      <h1 class="bh-subtitle">hasib sarvari</h1>
+                      <h3>desinger // developer // entrepreuner</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 h-full d-flex align-items-center">
+                <div class="container left-col">
+                  <div class="row justify-content-center align-items-center">
+                    <div class="col-md-9 col-sm-12 left-col d-flex justify-content-center flex-column">
+
+                      <div class="portfolio-item">
+                        <div class="card bg-dark text-white">
+                          <img class="card-img" src="https://images.unsplash.com/photo-1539035330331-933ac9e210fe?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a4500da9e568501350d1b25aa1d4d576&auto=format&fit=crop&w=934&q=80" alt="Card image">
+                          <div class="card-img-overlay">
+                            <p class="card-text portfolio-number"><strong>#1</strong></p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="portfolio-item">
+                        <div class="card bg-dark text-white">
+                          <img class="card-img" src="https://images.unsplash.com/photo-1539035330331-933ac9e210fe?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a4500da9e568501350d1b25aa1d4d576&auto=format&fit=crop&w=934&q=80" alt="Card image">
+                          <div class="card-img-overlay">
+                            <p class="card-text portfolio-number"><strong>#1</strong></p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="portfolio-item">
+                        <div class="card bg-dark text-white">
+                          <img class="card-img" src="https://images.unsplash.com/photo-1539035330331-933ac9e210fe?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a4500da9e568501350d1b25aa1d4d576&auto=format&fit=crop&w=934&q=80" alt="Card image">
+                          <div class="card-img-overlay">
+                            <p class="card-text portfolio-number"><strong>#1</strong></p>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+</main>
+
 {% endblock %}
